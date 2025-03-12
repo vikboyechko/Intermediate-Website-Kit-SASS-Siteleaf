@@ -1,63 +1,61 @@
-title: "Code Stitch Web Designs"
-description: "A simple Jekyll template for Siteleaf"
-url: "https://www.codestitch.app"
-baseurl: ""
-
-# Build settings
-markdown: kramdown
-permalink: /blog/:title/
-
-# Collections
+---
+title: Code Stitch Web Designs
+timezone: UTC
 collections:
   pages:
+    title: Pages
     output: true
-    permalink: /:path/
+    permalink: "/:path/"
+  portfolio:
+    title: Portfolio
+    output: false
+  posts:
+    title: Posts
+    output: true
   services:
+    title: Services
     output: false
   testimonials:
+    title: Testimonials
     output: false
-  portfolio:
-    output: false
-
-# Default front matter
+  uploads:
+    title: Uploads
+    output: true
 defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "page"
-  - scope:
-      path: ""
-    values:
-      layout: "default"
-
-# Exclude from processing
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
+- scope:
+    path: ''
+  values:
+    layout: default
+description: A simple Jekyll template for Siteleaf
+url: https://www.codestitch.app
+baseurl: ''
+markdown: kramdown
+permalink: "/blog/:title/"
 exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor
-  - .sass-cache
-  - .jekyll-cache
-  - .gitignore
-  - README.md
-  - LICENSE.md
-
-# Siteleaf settings
+- Gemfile
+- Gemfile.lock
+- node_modules
+- vendor
+- ".sass-cache"
+- ".jekyll-cache"
+- ".gitignore"
+- README.md
+- LICENSE.md
 siteleaf:
   enabled: true
-
-# SASS settings
 sass:
   style: compressed
   sass_dir: _sass
-
-# Plugins
 plugins:
-  - jekyll-sitemap
-  - jekyll-seo-tag 
+- jekyll-sitemap
+- jekyll-seo-tag

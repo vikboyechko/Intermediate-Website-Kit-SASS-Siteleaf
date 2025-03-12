@@ -1,78 +1,93 @@
 ---
-layout: page
 title: About Us
+permalink: "/about/"
+layout: page
 description: Learn more about our company and our mission.
-permalink: /about/
-custom_css: /assets/css/about.css
-
+custom_css: "/assets/css/about.css"
 hero:
-  topper: "About Our Company"
-  title: "We're Passionate About What We Do"
-  text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget felis eget urna consectetur ultrices. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae."
+  topper: About Our Company
+  title: We're Passionate About What We Do
+  text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget felis
+    eget urna consectetur ultrices. Vestibulum ante ipsum primis in faucibus orci
+    luctus et ultrices posuere cubilia curae.
   background:
     desktop: "/assets/images/cabinets2.jpg"
     mobile: "/assets/images/cabinets2-m.jpg"
-    alt: "about us"
-
+    alt: about us
 story:
-  topper: "Our Story"
-  title: "How We Got Started"
-  text1: "In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per."
-  text2: "In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per."
+  topper: Our Story
+  title: How We Got Started
+  text1: In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan
+    nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat
+    tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu
+    ad litora torquent per.
+  text2: In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan
+    nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat
+    tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu
+    ad litora torquent per.
   quote:
-    text: "In consequat tincidunt turpis sit amet imperdiet. Praesent Classei consequat tincidunt turpis sit amet imperdiet for mind."
-    name: "Justin Time"
-    job: "CEO-Founder"
-    icon: "https://csimg.nyc3.digitaloceanspaces.com/SideBySide/quote-white.svg"
+    text: In consequat tincidunt turpis sit amet imperdiet. Praesent Classei consequat
+      tincidunt turpis sit amet imperdiet for mind.
+    name: Justin Time
+    job: CEO-Founder
+    icon: https://csimg.nyc3.digitaloceanspaces.com/SideBySide/quote-white.svg
   image1:
     desktop: "/assets/images/cabinets2.jpg"
     mobile: "/assets/images/cabinets2-m.jpg"
-    alt: "cabinets"
+    alt: cabinets
   image2:
     desktop: "/assets/images/construction.jpg"
     mobile: "/assets/images/construction-m.jpg"
-    alt: "house"
-
+    alt: house
 values:
-  topper: "Our Values"
-  title: "What We Stand For"
-  text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget felis eget urna consectetur ultrices. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae."
+  topper: Our Values
+  title: What We Stand For
+  text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget felis
+    eget urna consectetur ultrices. Vestibulum ante ipsum primis in faucibus orci
+    luctus et ultrices posuere cubilia curae.
   items:
-    - title: "Quality"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget felis eget urna consectetur ultrices."
-    - title: "Integrity"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget felis eget urna consectetur ultrices."
-    - title: "Innovation"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget felis eget urna consectetur ultrices."
-
+  - title: Quality
+    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget felis
+      eget urna consectetur ultrices.
+  - title: Integrity
+    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget felis
+      eget urna consectetur ultrices.
+  - title: Innovation
+    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget felis
+      eget urna consectetur ultrices.
 team:
-  topper: "Our Team"
-  title: "Meet The People Behind Our Success"
-  text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget felis eget urna consectetur ultrices. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae."
+  topper: Our Team
+  title: Meet The People Behind Our Success
+  text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget felis
+    eget urna consectetur ultrices. Vestibulum ante ipsum primis in faucibus orci
+    luctus et ultrices posuere cubilia curae.
   members:
-    - name: "John Smith"
-      job: "CEO & Founder"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget felis eget urna consectetur ultrices."
-      image: "/assets/images/person1.jpg"
-    - name: "Jane Doe"
-      job: "Operations Manager"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget felis eget urna consectetur ultrices."
-      image: "/assets/images/person2.jpg"
-    - name: "Robert Johnson"
-      job: "Lead Designer"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget felis eget urna consectetur ultrices."
-      image: "/assets/images/person3.jpg"
-
+  - name: John Smith
+    job: CEO & Founder
+    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget felis
+      eget urna consectetur ultrices.
+    image: "/assets/images/person1.jpg"
+  - name: Jane Doe
+    job: Operations Manager
+    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget felis
+      eget urna consectetur ultrices.
+    image: "/assets/images/person2.jpg"
+  - name: Robert Johnson
+    job: Lead Designer
+    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget felis
+      eget urna consectetur ultrices.
+    image: "/assets/images/person3.jpg"
 cta:
-  title: "Ready to Work With Us?"
-  text: "Serving the entire state of Colorado and the continental United States. Give us a call or fill out the contact form and we'll get back to you as soon as possible."
+  title: Ready to Work With Us?
+  text: Serving the entire state of Colorado and the continental United States. Give
+    us a call or fill out the contact form and we'll get back to you as soon as possible.
   button:
-    text: "Contact Us"
+    text: Contact Us
     link: "/contact"
   background:
     desktop: "/assets/images/construction.jpg"
     mobile: "/assets/images/construction-m.jpg"
-    alt: "construction"
+    alt: construction
 ---
 
 <!-- ============================================ -->

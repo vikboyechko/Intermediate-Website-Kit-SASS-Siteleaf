@@ -1,15 +1,16 @@
 ---
 title: Acuti modo
-description: Lorem markdownum tardantis unam mitissima dissimulator
-  inposuit   corpus sintque tura tremenda, nec coetum.
+date: 2023-06-08 15:26:46.705000000 Z
+description: Lorem markdownum tardantis unam mitissima dissimulator inposuit   corpus
+  sintque tura tremenda, nec coetum.
 author: Code Stitch
-date: 2023-06-08T15:26:46.705Z
 tags:
-  - post
-  - featured
-image: /assets/images/blog/dall·e-2024-04-30-21.51.31-a-captivating-16_9-cover-image-for-an-educational-course-titled-the-art-science-of-lenses-focusing-on-cinema-lenses.-the-design-features-a-dramat.webp
+- post
+- featured
+image: "/assets/images/blog/dall·e-2024-04-30-21.51.31-a-captivating-16_9-cover-image-for-an-educational-course-titled-the-art-science-of-lenses-focusing-on-cinema-lenses.-the-design-features-a-dramat.webp"
 imageAlt: Kitchen
 ---
+
 ## Lacerans aliter tetigit praeterea rite
 
 Lorem markdownum tardantis unam mitissima dissimulator inposuit corpus sintque tura tremenda, nec coetum. Est limen Isthmo sagittas patres emerguntque anxia

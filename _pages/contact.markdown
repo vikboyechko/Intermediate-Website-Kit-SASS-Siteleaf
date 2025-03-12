@@ -1,45 +1,47 @@
 ---
-layout: page
 title: Contact Us
+permalink: "/contact/"
+layout: page
 description: Get in touch with our team. We're here to help!
-permalink: /contact/
-custom_css: /assets/css/contact.css
-
+custom_css: "/assets/css/contact.css"
 hero:
-  topper: "Contact Us"
-  title: "Get In Touch With Our Team"
-  text: "We're here to help with any questions you may have. Fill out the form below and we'll get back to you as soon as possible."
+  topper: Contact Us
+  title: Get In Touch With Our Team
+  text: We're here to help with any questions you may have. Fill out the form below
+    and we'll get back to you as soon as possible.
   background:
     desktop: "/assets/images/construction.jpg"
     mobile: "/assets/images/construction-m.jpg"
-    alt: "contact us"
-
+    alt: contact us
 contact:
-  topper: "Contact Information"
-  title: "How Can We Help?"
-  text: "Please fill out the form and we will get back to you as soon as possible. For immediate assistance, please call us directly."
+  topper: Contact Information
+  title: How Can We Help?
+  text: Please fill out the form and we will get back to you as soon as possible.
+    For immediate assistance, please call us directly.
   info:
-    - type: "Phone"
-      icon: "/assets/svgs/phone.svg"
-      link_type: "tel"
-      link_value: "{{ site.data.client.phoneForTel }}"
-      display_value: "{{ site.data.client.phoneFormatted }}"
-    - type: "Email"
-      icon: "/assets/svgs/email.svg"
-      link_type: "mailto"
-      link_value: "{{ site.data.client.email }}"
-      display_value: "{{ site.data.client.email }}"
-    - type: "Address"
-      icon: "/assets/svgs/pin.svg"
-      link_type: "map"
-      link_value: "{{ site.data.client.address.mapLink }}"
-      display_value: "{{ site.data.client.address.lineOne }}, {{ site.data.client.address.lineTwo }}, {{ site.data.client.address.city }}, {{ site.data.client.address.state }} {{ site.data.client.address.zip }}"
-
+  - type: Phone
+    icon: "/assets/svgs/phone.svg"
+    link_type: tel
+    link_value: "{{ site.data.client.phoneForTel }}"
+    display_value: "{{ site.data.client.phoneFormatted }}"
+  - type: Email
+    icon: "/assets/svgs/email.svg"
+    link_type: mailto
+    link_value: "{{ site.data.client.email }}"
+    display_value: "{{ site.data.client.email }}"
+  - type: Address
+    icon: "/assets/svgs/pin.svg"
+    link_type: map
+    link_value: "{{ site.data.client.address.mapLink }}"
+    display_value: "{{ site.data.client.address.lineOne }}, {{ site.data.client.address.lineTwo
+      }}, {{ site.data.client.address.city }}, {{ site.data.client.address.state }}
+      {{ site.data.client.address.zip }}"
 map:
-  topper: "Our Location"
-  title: "Find Us On The Map"
-  text: "We're conveniently located in {{ site.data.client.address.city }}, {{ site.data.client.address.state }}. Stop by our office or give us a call to schedule an appointment."
-  embed_url: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3067.7392352239356!2d-104.98760548462448!3d39.73890797944928!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c7ed68bc8aa09%3A0x1e8a29beba7f5f8e!2s1600%20Broadway%2C%20Denver%2C%20CO%2080202!5e0!3m2!1sen!2sus!4v1620508868578!5m2!1sen!2sus"
+  topper: Our Location
+  title: Find Us On The Map
+  text: We're conveniently located in {{ site.data.client.address.city }}, {{ site.data.client.address.state
+    }}. Stop by our office or give us a call to schedule an appointment.
+  embed_url: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3067.7392352239356!2d-104.98760548462448!3d39.73890797944928!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c7ed68bc8aa09%3A0x1e8a29beba7f5f8e!2s1600%20Broadway%2C%20Denver%2C%20CO%2080202!5e0!3m2!1sen!2sus!4v1620508868578!5m2!1sen!2sus
 ---
 
 <!-- ============================================ -->

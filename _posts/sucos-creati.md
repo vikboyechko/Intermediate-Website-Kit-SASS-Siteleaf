@@ -1,11 +1,11 @@
 ---
 title: Sucos Creati
+date: 2023-06-08 15:27:34.591000000 Z
 description: Lorem markdownum Talia. Carinae equis.
 author: Code Stitch
-date: 2023-06-08T15:27:34.591Z
 tags:
-    - post
-image: /assets/images/blog/landing.jpg
+- post
+image: "/assets/images/blog/landing.jpg"
 imageAlt: Kitchen
 ---
 

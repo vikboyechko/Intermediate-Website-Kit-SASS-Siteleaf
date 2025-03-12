@@ -1,12 +1,18 @@
 ---
-layout: post
 title: Sample Blog Post
-description: This is a sample blog post to demonstrate how posts work in Jekyll and Siteleaf.
+date: 2023-05-15 14:00:00 Z
+categories:
+- blog
+- sample
+tags:
+- jekyll
+- siteleaf
+- sample
+layout: post
+description: This is a sample blog post to demonstrate how posts work in Jekyll and
+  Siteleaf.
 author: John Doe
-date: 2023-05-15 09:00:00 -0500
-categories: [blog, sample]
-tags: [jekyll, siteleaf, sample]
-image: /assets/images/blog/sample-post.jpg
+image: "/assets/images/blog/sample-post.jpg"
 image_alt: Sample blog post image
 featured: true
 ---

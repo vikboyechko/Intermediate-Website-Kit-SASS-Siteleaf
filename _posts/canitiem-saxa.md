@@ -1,12 +1,12 @@
 ---
 title: Canitiem Saxa
+date: 2023-06-08 15:28:08.486000000 Z
 description: Lorem markdownum trabeati dicere deus.
 author: Code Stitch
-date: 2023-06-08T15:28:08.486Z
 tags:
-    - post
-    - featured
-image: /assets/images/blog/landing.jpg
+- post
+- featured
+image: "/assets/images/blog/landing.jpg"
 imageAlt: Kitchen
 ---
 

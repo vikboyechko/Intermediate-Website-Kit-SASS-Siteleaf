@@ -1,87 +1,101 @@
 ---
-title: "Pixel Perfect Websites"
-description: "Meta description for the page"
+title: Pixel Perfect Websites
 permalink: "/"
+description: Meta description for the page
 layout: default
 custom_css: "/assets/css/local.css"
 preloadImg: "/assets/images/landing.jpg"
-
 hero:
-  topper: "mountain hiking society"
-  title: "Explore the World with Exciting People"
-  text: "Tincidunt lobortis feugiat vivamus at augue eget arcu dictum varius. Nibh tortor id aliquet lectus proin nibh condimentum."
+  topper: mountain hiking society
+  title: Explore the World with Exciting People
+  text: Tincidunt lobortis feugiat vivamus at augue eget arcu dictum varius. Nibh
+    tortor id aliquet lectus proin nibh condimentum.
   button1:
-    text: "Explore More"
+    text: Explore More
     link: "/about"
-    class: "cs-button-solid"
+    class: cs-button-solid
   button2:
-    text: "Get in Touch"
+    text: Get in Touch
     link: "/contact"
-    class: "cs-button-transparent"
-    icon: "https://csimg.nyc3.digitaloceanspaces.com/Hero/play.svg"
+    class: cs-button-transparent
+    icon: https://csimg.nyc3.digitaloceanspaces.com/Hero/play.svg
   background:
     desktop: "/assets/images/landing.jpg"
     mobile: "/assets/images/landing-m.webp"
-    alt: "new home"
-
+    alt: new home
 about:
-  topper: "About Us"
-  title: "About Company Title"
-  text1: "In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per."
-  text2: "In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per."
+  topper: About Us
+  title: About Company Title
+  text1: In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan
+    nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat
+    tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu
+    ad litora torquent per.
+  text2: In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan
+    nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat
+    tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu
+    ad litora torquent per.
   quote:
-    text: "In consequat tincidunt turpis sit amet imperdiet. Praesent Classei consequat tincidunt turpis sit amet imperdiet for mind."
-    name: "Justin Time"
-    job: "CEO-Founder"
-    icon: "https://csimg.nyc3.digitaloceanspaces.com/SideBySide/quote-white.svg"
+    text: In consequat tincidunt turpis sit amet imperdiet. Praesent Classei consequat
+      tincidunt turpis sit amet imperdiet for mind.
+    name: Justin Time
+    job: CEO-Founder
+    icon: https://csimg.nyc3.digitaloceanspaces.com/SideBySide/quote-white.svg
   button:
-    text: "More About Us"
+    text: More About Us
     link: "/about"
   image1:
     desktop: "/assets/images/cabinets2.jpg"
     mobile: "/assets/images/cabinets2-m.jpg"
-    alt: "cabinets"
+    alt: cabinets
   image2:
     desktop: "/assets/images/construction.jpg"
     mobile: "/assets/images/construction-m.jpg"
-    alt: "house"
-
+    alt: house
 seo:
-  topper: "SEO Ranking"
-  title: "Talk about a main service keyword"
-  text1: "In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per."
-  text2: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non tenetur, iure nihil ipsam qui atque commodi id voluptatem nesciunt, quis animi fuga cum doloribus! Eaque laboriosam, unde consectetur iure asperiores ullam. Consequuntur debitis a voluptatibus vitae optio autem explicabo quia neque est quas, in placeat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus modi laudantium voluptatibus rem libero error minus quia eligendi sapiente eos."
+  topper: SEO Ranking
+  title: Talk about a main service keyword
+  text1: In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan
+    nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat
+    tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu
+    ad litora torquent per.
+  text2: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non tenetur, iure
+    nihil ipsam qui atque commodi id voluptatem nesciunt, quis animi fuga cum doloribus!
+    Eaque laboriosam, unde consectetur iure asperiores ullam. Consequuntur debitis
+    a voluptatibus vitae optio autem explicabo quia neque est quas, in placeat. Lorem
+    ipsum dolor sit amet consectetur adipisicing elit. Doloribus modi laudantium voluptatibus
+    rem libero error minus quia eligendi sapiente eos.
   button:
-    text: "Read our Blog"
+    text: Read our Blog
     link: "/blog"
   image1:
     desktop: "/assets/images/construction.jpg"
     mobile: "/assets/images/construction-m.jpg"
-    alt: "house"
+    alt: house
   image2:
     desktop: "/assets/images/cabinets2.jpg"
     mobile: "/assets/images/cabinets2-m.jpg"
-    alt: "cabinets"
-
+    alt: cabinets
 gallery:
-  topper: "Our Portfolio"
-  title: "Et orci volutpat, back up generator installations"
-
+  topper: Our Portfolio
+  title: Et orci volutpat, back up generator installations
 testimonials:
-  topper: "Our Reviews"
-  title: "Words From Our Customers"
-  text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit dolor volutpat porttitor sagittis nunc nisl. Sagittis sit pellentesque gravida viverra. Leo ut sed euismod tortor risus et. Ornare non neque, leo, ornare. Lorem ipsum dolor sit amet."
-
+  topper: Our Reviews
+  title: Words From Our Customers
+  text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit dolor volutpat
+    porttitor sagittis nunc nisl. Sagittis sit pellentesque gravida viverra. Leo ut
+    sed euismod tortor risus et. Ornare non neque, leo, ornare. Lorem ipsum dolor
+    sit amet.
 cta:
-  title: "Get in Touch"
-  text: "Serving the entire state of Colorado and the continental United States. Give us a call or fill out the contact form and we'll get back to you as soon as possible."
+  title: Get in Touch
+  text: Serving the entire state of Colorado and the continental United States. Give
+    us a call or fill out the contact form and we'll get back to you as soon as possible.
   button:
-    text: "Contact Us"
+    text: Contact Us
     link: "/contact"
   background:
     desktop: "/assets/images/cabinets2.jpg"
     mobile: "/assets/images/cabinets2-m.jpg"
-    alt: "kitchen cabinets"
+    alt: kitchen cabinets
 ---
 
 <link rel="stylesheet" href="/assets/css/critical.css" />

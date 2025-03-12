@@ -1,32 +1,30 @@
 ---
-layout: page
 title: Blog
+permalink: "/blog/"
+layout: page
 description: Read our latest articles and updates
-permalink: /blog/
-custom_css: /assets/css/blog.css
-
+custom_css: "/assets/css/blog.css"
 hero:
-  topper: "Our Blog"
-  title: "Latest News & Articles"
-  text: "Stay up to date with our latest news, tips, and insights from our team."
+  topper: Our Blog
+  title: Latest News & Articles
+  text: Stay up to date with our latest news, tips, and insights from our team.
   background:
     desktop: "/assets/images/construction.jpg"
     mobile: "/assets/images/construction-m.jpg"
-    alt: "blog"
-
+    alt: blog
 blog:
-  title: "All Posts"
-
+  title: All Posts
 cta:
-  title: "Have Questions?"
-  text: "If you have any questions or would like to learn more about our services, don't hesitate to get in touch."
+  title: Have Questions?
+  text: If you have any questions or would like to learn more about our services,
+    don't hesitate to get in touch.
   button:
-    text: "Contact Us"
+    text: Contact Us
     link: "/contact"
   background:
     desktop: "/assets/images/construction.jpg"
     mobile: "/assets/images/construction-m.jpg"
-    alt: "construction"
+    alt: construction
 ---
 
 <!-- ============================================ -->
