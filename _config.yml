@@ -1,0 +1,63 @@
+title: "Code Stitch Web Designs"
+description: "A simple Jekyll template for Siteleaf"
+url: "https://www.codestitch.app"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+permalink: /blog/:title/
+
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+  services:
+    output: false
+  testimonials:
+    output: false
+  portfolio:
+    output: false
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .sass-cache
+  - .jekyll-cache
+  - .gitignore
+  - README.md
+  - LICENSE.md
+
+# Siteleaf settings
+siteleaf:
+  enabled: true
+
+# SASS settings
+sass:
+  style: compressed
+  sass_dir: _sass
+
+# Plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag 

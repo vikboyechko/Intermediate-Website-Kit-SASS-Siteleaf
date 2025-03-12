@@ -1,0 +1,62 @@
+---
+layout: default
+custom_css: /assets/css/blog.css
+---
+
+<!-- ============================================ -->
+<!--                    LANDING                   -->
+<!-- ============================================ -->
+
+<section id="int-hero">
+    <picture>
+        <source media="(max-width: 600px)" srcset="/assets/images/cabinets2-m.jpg">
+        <source media="(min-width: 601px)" srcset="/assets/images/cabinets2.jpg">
+        <img aria-hidden="true" decoding="async" src="/assets/images/cabinets2.jpg" alt="kitchen cabinets" loading="eager" width="2500" height="1667">
+    </picture>
+</section>
+
+<!-- ============================================ -->
+<!--              Main Blog Content               -->
+<!-- ============================================ -->
+
+<div class="blog-container main-content-wrapper">
+    <!--Main content -->
+    <div class="main-content">
+        <!-- ============================================ -->
+        <!--                  Blog Article                -->
+        <!-- ============================================ -->
+
+        <article class="blog-article">
+            <!--Main Article Image-->
+            <picture class="blog-mainImage">
+                <img src="{{ page.image }}" alt="{{ page.imageAlt }}" width="795" height="400" decoding="async" />
+            </picture>
+
+            <!--Article Info-->
+            <div class="article-group">
+                <h1 class="blog-h1">{{ page.title }}</h1>
+                <div class="blog-authorGroup">
+                    <!--Author Image-->
+                    <picture class="blog-author-img">
+                        <img
+                        src="/assets/svgs/profile.svg"
+                        alt="house"
+                        width="32"
+                        height="32"
+                        decoding="async">
+                    </picture>
+                    <span class="blog-author">{{ page.author }}</span>
+                    <span aria-hidden="true" class="blog-dot"></span>
+                    <!--Blog Date-->
+                    <span class="blog-date">{{ page.date | date: "%B %d, %Y" }}</span>
+                </div>
+            </div>
+            <section id="blog-content">
+                {{ content }}
+            </section>
+        </article>
+    </div>
+    <!-- End .main-content -->
+
+    {% include featured-post.html %}
+</div> 

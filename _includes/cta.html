@@ -1,0 +1,21 @@
+<!-- ============================================ -->
+<!--                   CTA                        -->
+<!-- ============================================ -->
+
+<section id="cta">
+    <div class="cs-container">
+        <div class="cs-content">
+            <h2 class="cs-title">{{ page.cta.title }}</h2>
+            <p class="cs-text">
+                {{ page.cta.text }}
+            </p>
+            <a href="{{ page.cta.button.link }}" class="cs-button-solid">{{ page.cta.button.text }}</a>
+        </div>
+    </div>
+    <!-- Background Image -->
+    <picture class="cs-background">
+        <source media="(max-width: 600px)" srcset="{{ page.cta.background.mobile }}">
+        <source media="(min-width: 601px)" srcset="{{ page.cta.background.desktop }}">
+        <img loading="lazy" decoding="async" src="{{ page.cta.background.desktop }}" alt="{{ page.cta.background.alt }}" width="2500" height="1667" aria-hidden="true">
+    </picture>
+</section> 
